@@ -9,4 +9,14 @@ def histogram(li):
             output += '*'
             x = x-1
         print(output)
+
 histogram([1, 2, 3, 4, 5])
+
+#OR
+
+def histogram(li):
+    for i in li:
+        print('*'*i)
+        
+x = [1, 2, 3, 4, 5]
+histogram(x)
