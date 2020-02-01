@@ -10,7 +10,7 @@ def is_even(x):
         return False
 
 lst = [10,23,45,22,34,55,67,78]
-lst1 = list(filter((is_even, lst)))
+lst1 = list(filter(is_even, lst))
 print(lst1)
 
 # same code using lamda function
@@ -28,7 +28,7 @@ def square(x):
         return x*x
 
 lst = [1,2,3]
-lst1 = list(map((square, lst)))
+lst1 = list(map(square, lst))
 print(lst1)
 
 # same code using lamda function
